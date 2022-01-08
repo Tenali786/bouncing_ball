@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bouncing Ball Effects</title>
+
+    <style>
+        body{
+            /* background: url('1.gif') no-repeat ; */
+            background-color: #2d3436;
+        }
+        .container{
+            display: flex;
+            height: 100vh;
+            justify-content:center;
+            align-items:center;
+        }
+        ul{
+          display: flex;
+          border-bottom: 10px solid rgb(255, 255, 255);
+          
+            
+        }
+
+        ul li{
+            width: 50px;
+            background-color: rgb(3, 214, 84);
+            height: 50px;
+            list-style: none;
+            margin:  0px 5px;
+            border-radius: 50%;
+            animation:bouncing 1s linear infinite;
+        }
+
+
+        @keyframes bouncing{
+            0%{
+                transform:translateY(0px)
+
+            }
+            50%{
+                transform:translateY(-150px)
+            }
+            100%{
+                transform:translateY(0px)
+            }
+        }
+
+        ul li:nth-child(1){
+            background-color:yellow;
+            animation-delay: 0.1s;
+        }
+
+        ul li:nth-child(2){
+            background-color:rgb(211, 18, 60);
+            animation-delay: 0.4s;
+        }
+        ul li:nth-child(3){
+            background-color:rgb(255, 255, 255);
+            animation-delay: 0.7s;
+        }
+        ul li:nth-child(4){
+            background-color:rgb(185, 18, 116);
+            animation-delay: 0.2s;
+        }
+        ul li:nth-child(5){
+            background-color:rgb(0, 140, 255);
+            animation-delay: 0.5s;
+        }
+        ul li:nth-child(6){
+            background-color:rgb(0, 255, 13);
+            animation-delay: 0.1s;
+        }
+        
+        ul li:nth-child(7){
+            background-color:rgb(204, 0, 255);
+            animation-delay: 0.8s;
+        }
+        ul li:nth-child(8){
+            background-color:rgb(255, 255, 255);
+            animation-delay: 0.4s;
+        }
+
+        ul li:nth-child(9){
+            background-color:rgb(38, 0, 255);
+            animation-delay: 0.9s;
+        }
+
+        ul li:nth-child(10){
+            background-color:rgb(255, 0, 0);
+            animation-delay: 0.2s;
+        }
+        ul li:nth-child(11){
+            background-color:rgb(13, 117, 103);
+            animation-delay: 0.6s;
+        }
+
+        ul li:nth-child(12){
+            background-color:rgb(187, 255, 0);
+            animation-delay: 0.1s;
+        }
+
+        ul li:nth-child(13){
+            background-color:rgb(255, 255, 255);
+            animation-delay: 0.4s;
+        }
+
+        ul li:nth-child(14){
+            background-color:rgb(225, 0, 255);
+            animation-delay: 0.3s;
+        }
+
+        ul li:nth-child(15){
+            background-color:rgb(255, 136, 0);
+            animation-delay: 0.7s;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li> 
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <!-- <img src="YQDs.gif" alt=""> -->
+    </div>
+
+</body>
+</html>
